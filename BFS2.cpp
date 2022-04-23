@@ -36,7 +36,7 @@ class Solution {
           int node = q.front();
           q.pop();
           bfs.push_back(node);
-
+           
           for (auto it : adj[node]) {
             if (!vis[it]) {
               q.push(it);
@@ -51,6 +51,9 @@ class Solution {
 };
 
 int main() {
+ 
+ cout<<"Hello people";
+ 
   int t;
   cin >> t;
   while (t--) {
